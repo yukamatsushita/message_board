@@ -14,7 +14,7 @@
       </c:forEach>
     </ul>
 
-    ///message_boardというコンテキストパスの文字列に置き換わり、/new(NewServlet.java)を呼び出す。
+    <%--message_boardというコンテキストパスの文字列に置き換わり、/new(NewServlet.java)を呼び出す。 --%>
     <p><a href="${pageContext.request.contextPath}/new">新規メッセージの投稿</a></p>
 
   </c:param>
